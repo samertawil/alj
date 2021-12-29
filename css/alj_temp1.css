@@ -1,0 +1,211 @@
+@charset "utf-8";
+ 
+body{
+
+  direction: rtl;
+/*	font-family: 'Raleway', sans-serif !important;*/
+/*	font-family: 'Tajawal', sans-serif !important;*/
+
+	height: 5000px;
+ 
+}
+
+.img_logo {
+	width: 80px;
+	height: 80px;
+
+}
+
+.img_logo img {
+width: 100%;
+height: 100%;	
+object-fit: cover;
+
+		
+}
+
+.navbar-light {
+	background-color: #FFFFFF !important;
+}
+.nav-item {
+	padding: 10px;
+	
+}
+
+.play_id , .active , #navbarDropdown  {
+	font-size: 1rem;
+	font-weight: bold;
+	text-decoration:none;
+	color: black;
+	padding-right: 10px;
+ 
+}
+ .search_icon , .play_icon {
+	margin-right: 30px;
+	 font-size: 22px;
+}
+
+.search_icon2 {
+	position: absolute;
+	top:116px;
+	right:130px;
+	font-size: 22px;
+	text-decoration: none;
+	cursor:default;
+	color: black;
+	
+}
+
+#search_place {
+	width: 100%;
+	height: 55px;
+	background-color: #f0f0f0;  
+ 
+
+}
+#search_field {
+	width: 90%;
+	height: 37px;
+	margin: 10px 0px;
+  padding-right: 40px;
+ 
+
+ 
+
+}
+
+.search_field_hidde {
+ 
+	display: none;
+
+}
+ .search_field_show {
+	display: inline-block;
+}
+.my_search_btn {
+background-color: #4D4D4D;	
+ position: absolute;
+	border: none;
+	color: beige;
+	width: 100px;
+	height: 37px;
+	top:107px;
+	left:120px;
+
+}
+
+
+ 
+.imge_p1 img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.news_p1 .s2 .s3 {
+color: black;
+text-decoration: none;
+font-family: "Aljazeera","Helvetica Neue","Helvetica","Arial",sans-serif !important;
+}
+
+.news_p1 .s2 .s3:hover{
+text-decoration:underline;	
+color: black;
+cursor:pointer;
+}
+ 
+.p2_parts {
+ 
+ 	width: 300px;
+	font-family: "Aljazeera","Helvetica Neue","Helvetica","Arial",sans-serif !important;
+	font-size: 20px;
+
+}
+
+.ads span {
+
+	text-align: center;
+ 	width: 970px;
+	display: inline-block;
+}
+.ads{
+	
+width:970px;
+height: 250px;
+margin: auto  auto;
+ 
+	
+ 
+}
+
+.news_p3 {
+	background-color: #ddd;
+	margin: 50px 0px;
+	height: 100%;
+
+}
+ 
+.right_side {
+	width:66%;
+}
+
+.news_left {
+	width:34%;
+}
+ 
+.resize_img_css {
+	width:50% !important;
+	height: 50% !important;
+	direction: ltr;
+}
+
+.right_side {
+	width: 770px;
+	height: 340px;
+
+}
+
+.right_side2 {
+	width: 770px;
+/*	height: 640px;*/
+	 
+}
+.news3_imge_side {
+	width: 300px;
+	height: 200px;
+	margin-left: 10px;
+
+}
+
+.news3_imge_side2 {
+	width: 750px;
+	height:413px;
+	margin-left: 10px;
+
+}
+
+
+
+.news3_imge_side img,.news3_imge_side2  img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.con {
+	padding-top: 20px ;
+	padding-bottom: 20px;
+}
+ 
+.news3_icon {
+ width: 150px;
+
+	position: absolute;
+	left: 760px;
+	color: gray;
+	z-index: 10;
+}
+.card-header {
+	padding: 0px 0px !important;
+ 
+}
+ 

@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cl_item{
+	
+	
+	width: 150px;
+	height:50;
+	margin: 5px;
+	padding: 2px;
+	font-size: 20px;
+	
+}
+ 
+body{
+	
+/*	margin-top: 50px;*/
+	margin-right: 50px;
+ /* direction: rtl;*/
+ 
+	 
+}
+
+#header_id1{
+	
+	text-align: center;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	background-color:lightgoldenrodyellow;
+	/*width: 500px;*/
+	text-shadow: 0px 0px 3px gray;
+	padding: 20px;
+	box-shadow: 0px 0px 3px 5px gray;
+	 
+
+}
+ 
+#menu_id{
+	border: 2px solid black;
+	margin-top: 0px;
+	 
+	background-image: url("1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	 
+	height: 70px;
+}
+ 
+#form_id{
+	
+		line-height: 55px;  
+	
+}
+
+
+p{  
+background-color: red;
+
+}

@@ -1,0 +1,303 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	font-family: HelvNowOrange, Helvetica Neue, Helvetica, Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	 
+	 
+}
+ 
+.container {
+	
+	background-color:#ddd;
+	margin: 0px 0px;
+	padding: 20px;
+	 
+	
+	
+}
+
+  .menu {
+	
+ background-color: black; 
+ color: white;
+ margin:0px 0px;
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ position: relative;
+	  
+
+}
+
+ .menu ul {
+ 
+	width: 100%;
+	height: 70px;
+
+ 
+	
+	
+	
+	}
+
+ .menu li {
+	 display: inline-block; 
+	list-style: none;
+	text-align: center;
+	 
+	
+ 
+	 margin-left: 36px; 
+	 margin-top:30px;
+	 font-size: 18px; 
+	 
+	 font-weight: bold;
+	 letter-spacing: 3px;
+	 cursor: pointer;
+ 
+
+	
+}
+
+ 
+.menu .logo {
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
+	position: absolute;
+	left: 10px;
+	top: 5px;
+	 
+	
+}
+
+.menu .logo img {
+	width: 100%;
+	height: 100%;
+	
+	
+}
+
+
+ 
+
+.menu .f_logo i:first-child {
+	 
+	color: white;
+	 top:15px;
+	right: 50px;
+	position:absolute;
+	
+}
+
+.menu .f_logo i:last-child {
+	color: orange;
+	 top:15px;
+	right: 8px;
+	position:absolute;
+}
+
+
+.side1 {
+	background-color: black;
+	margin-top: 0px;
+	 height: 340px;
+	width:100%; 
+	margin-left: 0px;
+
+	 
+	 
+	
+}
+.side1 .p1 {
+	font-size: 30px;
+	color: orange;
+	padding-top: 20px;
+	margin-bottom: 35px;
+	margin-left: 30px;
+	
+}
+
+.side1 .p2 {
+	font-size: 25px;
+	color: white;
+	margin-left: 30px;
+	
+}
+
+ .side1 .p1::selection{
+	 color: white;	
+	
+}
+
+
+ .side1 .p2::selection{
+	 color: orange;	
+	
+}
+
+
+.side1 button {
+	background-color: orange;
+	width: 120px;
+	height: 30px;
+	margin-left: 30px;
+	margin-top: -15px;
+	color: white;
+	border: none;
+	font-size: 18px;
+		 
+	
+}
+
+ 
+.page-pic {
+
+
+  display: flex;
+  
+
+	
+}
+
+  .page-pic-1 {
+	
+    background-color: blue; 
+	  
+    width: 670px;
+	height: 250px;
+	  
+	position: absolute;
+	top: 120px;
+	right: 11px;
+	   
+}
+
+  .page-pic-1 img
+{
+	
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+ 
+}
+ 
+ 
+
+.main {
+	
+	text-align: center;
+ 
+}
+
+.main .title {
+	
+	margin-top: 20px;
+	font-size: 25px;
+	color: black;
+  font-weight: bold;
+	margin-bottom: 10px;
+ 
+	 
+	
+}
+
+.container .products {
+ 
+	width:100%;
+	height: 680px;
+	margin-top: 20px;
+	
+    display: flex; 
+	justify-content:space-around;
+	flex-wrap: wrap;
+	
+	
+	
+	
+	
+	
+}
+
+.container .products .items{
+	width:23%;
+	border: 0.5px solid white;
+	height: 300px;
+	background-color: white;
+	
+	 
+	
+}
+.container .products .image {
+ 
+  width: 100%; 
+  height: 200px; 
+ overflow: hidden;
+	 
+}
+
+.container .products .image img {
+	 width: 100%; 
+	 height:100%;
+	object-fit:fill;
+	
+	 transition: 1s;
+	 
+	
+}
+
+ 
+.container .products .image img:hover {
+transform: scale(1.5);
+	 
+	
+}
+
+ 
+.container .products p{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	padding: 5px;
+}
+
+
+.container .products button {
+	border: none;
+    margin-left: 90px;
+	font-size: 15px;
+	background-color: blue;
+	color: white;
+	 width: 93px;
+	height: 21px; 
+}
+/* end 1 */
+
+/* start 2 */
+
+  .new_image {
+	 width:50%;
+	  height: 200px;
+	background-color: yellow;
+	  display: grid;
+	  grid-template-columns: auto auto auto;
+
+}
+.new_image div {
+	border: 1px solid black;
+	width: 100%;
+	 height: 100%
+}
+
+.new_image div img {
+	width: 100%;
+	 height: 100%;
+	object-fit: fill;
+}
+
+ 
+	
+ 
