@@ -17,7 +17,7 @@ $host='localhost';
 $username = 'root';
 $password = '';
 $database = new MySQLi($host,$username,$password); 
-	 
+
 if ($database->connect_error) {
   die("Connection failed: " . $database->connect_error); }
 	  
